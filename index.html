@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+    
+    <!-- Header -->
+    <div class="article">
+          <div class="picture">
+            
+            <div>
+            <h1>Application Form</h1>
+            <br>
+            <h3>Note: This form is to be submitted 30 days before the starting date</h3>
+            <br>
+            <h2>Personal Information</h2>
+            <br>
+            </div>
+
+            <div>
+           <img src="https://www.mit.edu/files/images/202111/MIT-Rhodes-Hong-01-PRESS_0.jpg" alt="MIT" width="350px" height="250">
+            </div>
+          </div> 
+       <!-- First section -->
+        <section class="personal">
+           <label for="name">Name</label>
+           <input type="text" id="name" required autofocus placeholder="Enter your name..."> 
+           <br><br>
+           <label for="name">Address</label>
+           <input type="text" id="address" name="address" placeholder="Enter your address..."> 
+           <br><br>
+           <label for="name">E-mail</label>
+           <input type="email" id="email" name="email" required placeholder="Enter your email..."> 
+           <br><br>
+           <label for="grade">Grade</label>
+           <input type="number" id="grade" name="grade" min="0" max="100" step="1" placeholder="Enter your grade..."> 
+           <br><br>
+           <label for="phone">Phone</label>
+           <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="+1"> 
+        </section> <br>
+         
+         
+        <!-- Gender part -->
+        <h1>Gender</h1>
+       <section class="radio">
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male" checked>
+
+          <label for="female">Female</label>
+          <input type="radio" name="gender" value="female">
+
+          <label for="other">Other</label>
+          <input type="radio" name="gender" value="other">
+       </section> 
+       <br>
+
+       <section class="personal">
+           <label for="date">Date</label>
+           <input type="date" id="date" name="date" min="2020-12-01"> 
+       </section>
+       <br> <br>
+
+       <h1>Check all that apply</h1>
+
+            <section>
+             <input type="checkbox" name="react" value="react">
+             <label for="react">I want to learn Java Script</label> 
+             <br><br>
+             <input type="checkbox" name="react" value="react">
+             <label for="react">I want to learn React</label> 
+             <br><br>
+             <input type="checkbox" name="react" value="react">
+             <label for="react">I want to learn HTML</label> 
+             <br><br>
+             <input type="checkbox" name="react" value="react">
+             <label for="react">I want to learn CSS</label> 
+             <br><br>
+             <input type="checkbox" name="react" value="react">
+             <label for="react">I want to learn Python</label> 
+             <br><br>
+             <input type="checkbox" name="react" value="react">
+             <label for="react">I want to learn C#</label> 
+             <br><br>
+            </section>  
+           
+
+
+           <section>
+              <label for="education">Education Level</label> 
+              <select name="education">
+              <option>College Degree</option>
+              <option>Bachelor's Degree</option>
+              <option>Masrer's Degree</option>
+              <option>Doctoral Degree</option>
+              <option>Professional Degree</option>
+              </select>
+            </section>
+
+            <section>
+                <h1>Essey Section</h1>
+                <textarea name="essey" cols="30" rows="10" placeholder="Your essey is here..."></textarea>
+            </section>
+            <br><br>
+            
+            <input type="reset" value="cancel">
+            <input type="submit" value="submit">
+
+
+
+
+            
+       
+        
+    </div>
+
+
+
+</body>
+</html>

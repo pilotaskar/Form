@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color:dimgray;
+    width: 70%;
+    margin: auto;
+    height: 200vh;
+    position: relative;
+}
+
+.article {
+    padding-left: 80px;
+    padding-top: 30px;
+    color:white
+}
+
+.text {
+    color: white;
+    padding-left: 80px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.first-input {
+    margin-left: 200px;
+}
+
+.personal label {
+    position: absolute;
+    left: 10%;
+    color: white;
+}
+
+.personal input {
+    position: absolute;
+    left: 30%;
+}
+
+#grade, #date {
+    width: 165px;
+}
+
+.picture {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin-left: 45px;
+    border-radius: 20px;
+    border: solid 5px white;
+}
